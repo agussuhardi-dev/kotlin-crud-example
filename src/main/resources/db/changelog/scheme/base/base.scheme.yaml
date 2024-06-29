@@ -1,0 +1,6 @@
+databaseChangeLog:
+
+  - include:
+      file: ddl/20240629_init.sql
+      author: agussuhardi
+      relativeToChangelogFile: true

@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:14'
+    environment:
+      - 'POSTGRES_DB=crud_kotlin'
+      - 'POSTGRES_PASSWORD=secret'
+      - 'POSTGRES_USER=kotlin'
+    ports:
+      - '5432:5432'
