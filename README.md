@@ -3,6 +3,7 @@ Example code spring boot with kotlin
 addon: 
 - data migration (https://www.liquibase.com/)
 - postgresql
+- rest API
 
 
 #### Create
